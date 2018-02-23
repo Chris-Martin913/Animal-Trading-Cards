@@ -1,0 +1,42 @@
+/* add your CSS here */
+
+.card {
+  font-family: 'Verdana', 'Helvetica', 'sans-serif';
+  color: white;
+  width: 302px;
+  margin: 0 auto;
+  background-image: url(https://4.bp.blogspot.com/--Z35-eZfRYg/VyXaeuRwx7I/AAAAAAAAUto/KyzlUTreRtA_SyFIOJVkCTsiwTshj9eFACLcB/s1600/beija%2Bflor%2Bno%2Bdedo.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px -1px rgba(181, 172, 181, 1);
+}
+
+.picture {
+  width: 300px;
+}
+
+.border {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(190, 181, 190, 1);
+  border-radius: 5px;
+  background-color: rgba(180, 180, 180, 0.5);
+}
+
+.padding {
+  padding: 10px;
+}
+
+.info {
+  font-style: italic;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+}
+
+span {
+  font-weight: bold;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards</title>
+	<link href="styles.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+</head>
+
+<body>
+	<div class="card border padding">
+		<!-- your favorite animal's name goes here -->
+		<h3 class="padding">Bee Hummingbird</h3>
+		<!-- your favorite animal's image goes here -->
+		<img class="picture border" src="https://4.bp.blogspot.com/--Z35-eZfRYg/VyXaeuRwx7I/AAAAAAAAUto/KyzlUTreRtA_SyFIOJVkCTsiwTshj9eFACLcB/s1600/beija%2Bflor%2Bno%2Bdedo.jpg"
+		 alt="Bee hummingbird">
+		<div class="padding border">
+			<!-- your favorite animal's interesting fact goes here -->
+			<div class="info">
+				Each night hummingbirds enter a hibernation-like state called torpor which helps them preserve energy.
+			</div>
+			<hr>
+			<ul class="list">
+				<!-- your favorite animal's list items go here -->
+				<li>
+					<span>Scientific Name</span>: Mellisuga Helenae</li>
+				<li>
+					<span>Average Length</span>: 5 to 6 cm</li>
+				<li>
+					<span>Average Lifespan</span>: 3 to 5 years</li>
+				<li>
+					<span>Habitat</span>: Cuban archipelago</li>
+			</ul>
+			<hr>
+			<!-- your favorite animal's description goes here -->
+			<div id="flip">
+				<div class="front">
+					The bee hummingbird, zunzuncito or Helena hummingbird. This species of Hummingbird is the world's smallest bird.
+					<strong>
+						<em>More...</em>
+					</strong>
+				</div>
+				<div class="back">
+					In flight it beats its wings as many as 80 times per second, which produces the 'humming' sound that earned the bird its
+					name.
+				</div>
+			</div>
+		</div>
+</body>
+<script>
+	$("#flip").flip({		// Udacity Mentor Jorcus suggested the use of jQuery flip to hide some content as the 'info' was quite lengthy. https://nnattawat.github.io/flip/
+		trigger: "hover",
+	});
+</script>
+
+</html>
