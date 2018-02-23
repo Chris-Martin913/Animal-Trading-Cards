@@ -1,7 +1,7 @@
 /* add your CSS here */
 
 .card {
-  font-family: 'Verdana', 'Helvetica', 'sans-serif';
+  font-family: 'Cardo', 'Verdana', 'Helvetica';
   color: white;
   width: 302px;
   margin: 0 auto;
@@ -35,6 +35,11 @@
   list-style: none;
   padding: 0;
   font-size: 14px;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
 }
 
 span {
