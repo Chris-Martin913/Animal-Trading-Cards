@@ -37,11 +37,11 @@
   font-size: 14px;
 }
 
-h3 {
+.title {
   font-size: 25px;
   text-align: center;
 }
 
-span {
+.bold_text {
   font-weight: bold;
 }
